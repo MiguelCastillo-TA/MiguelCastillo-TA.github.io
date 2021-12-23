@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Practice</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <div id="oop-container">
+        <ul id="user-section">
+            <li>
+                <h2>create user</h2>
+                <form action="" id="create-form">
+                    <label for="name">
+                        Name:
+                        <input type="text" name="name">
+                    </label>
+                    <label for="email">
+                        Email:
+                        <input type="text" name="email">
+                    </label>
+                    <label for="username">
+                        username
+                        <input type="text" name="username">
+                    </label>
+                    <label for="password">
+                        password
+                        <input type="text" name="password">
+                    </label>
+                    <input type="submit" value="create" id="create-btn">
+                </form>
+            </li>
+            <li>
+                <h2>user login</h2>
+                <form action="" id="login-form">
+                    <label for="username">
+                        username
+                        <input type="text" name="username">
+                    </label>
+                    <label for="password">
+                        password
+                        <input type="text" name="password">
+                    </label>
+                    <input type="submit" value="login" id="login-btn">
+                </form>
+            </li>
+        </ul>
+        <section id="user-info-section">
+            <h2>User's Info</h2>
+
+            <table id="user-info-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="/miguel" class="profile-name-btn">Miguel Castillo</a></td>
+                        <td>email@email.com</td>
+                        <td>Prof</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/test" class="profile-name-btn">Test Test</a></td>
+                        <td>test@email.com</td>
+                        <td>test</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="user-profile">
+            <h2>User Profile</h2>
+            <p class="profile-data">Name: Test</p>
+            <p class="profile-data">Email: email@email.com</p>
+            <p class="profile-data">Username: username</p>
+        </section>
+        <section id="edit-profile">
+            <h2>edit user</h2>
+            <form action="" id="edit-user-form">
+                <label for="name">
+                    Name:
+                    <input type="text" name="name" value="test name">
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="text" name="email" value="email@email.com">
+                </label>
+                <label for="username">
+                    username
+                    <input type="text" name="username" value="username">
+                </label>
+                <label for="password">
+                    password
+                    <input type="text" name="password" value="12345">
+                </label>
+                <input type="submit" value="edit" id="edit-btn">
+            </form>
+
+        </section>
+    </div>
+    <script src="./static/js/logic.js"></script>
+</body>
+</html>
