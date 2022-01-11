@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OOP Practice</title>
-    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div id="oop-container">
@@ -58,50 +58,45 @@
                         <th>Username</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="user-info-table-body">
                     <tr>
-                        <td><a href="/miguel" class="profile-name-btn">Miguel Castillo</a></td>
-                        <td>email@email.com</td>
-                        <td>Prof</td>
-                    </tr>
-                    <tr>
-                        <td><a href="/test" class="profile-name-btn">Test Test</a></td>
-                        <td>test@email.com</td>
-                        <td>test</td>
+                        <td><button value="0" class="profile-name-btn">admin</button></td>
+                        <td>admin@email.com</td>
+                        <td>admin</td>
                     </tr>
                 </tbody>
             </table>
         </section>
         <section id="user-profile">
             <h2>User Profile</h2>
-            <p class="profile-data">Name: Test</p>
-            <p class="profile-data">Email: email@email.com</p>
-            <p class="profile-data">Username: username</p>
+            <p class="profile-data">Name:</p>
+            <p class="profile-data">Email:</p>
+            <p class="profile-data">Username:</p>
         </section>
         <section id="edit-profile">
             <h2>edit user</h2>
             <form action="" id="edit-user-form">
                 <label for="name">
                     Name:
-                    <input type="text" name="name" value="test name">
+                    <input type="text" name="name">
                 </label>
                 <label for="email">
                     Email:
-                    <input type="text" name="email" value="email@email.com">
+                    <input type="text" name="email">
                 </label>
                 <label for="username">
                     username
-                    <input type="text" name="username" value="username">
+                    <input type="text" name="username">
                 </label>
                 <label for="password">
                     password
-                    <input type="text" name="password" value="12345">
+                    <input type="text" name="password">
                 </label>
                 <input type="submit" value="edit" id="edit-btn">
             </form>
 
         </section>
     </div>
-    <script src="./static/js/logic.js"></script>
+    <script src="./final/js/logic.js"></script>
 </body>
 </html>

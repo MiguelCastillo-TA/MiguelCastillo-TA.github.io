@@ -103,3 +103,7 @@ form label{
 #login-form{
     background: rgba(32, 178, 171, 0.377);
 }
+.profile-name-btn{
+    color: blue;
+    text-decoration: underline;
+}
